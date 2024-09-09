@@ -23,11 +23,11 @@ This Python script enables users to read RSS feeds directly from their terminal.
 - Required packages: `feedparser`, `requests`, `prettytable`
 
 ## Installation
-
+   ```
 1. Clone this repository:
    ```
    git clone https://github.com/hassan-912/rss-feed-reader-in-terminal.git
-   ```
+   
 2. Navigate to the project directory:
    ```
    cd rss-feed-reader-in-terminal
@@ -85,4 +85,4 @@ This README provides:
 4. Usage guide with examples
 5. Placeholders for license and contribution information
 
-You can customize this template further based on your specific needs or preferences. Once you're satisfied with the content, save it as `README.md` in your project's root directory, then commit and push it to your GitHub repository.
+
