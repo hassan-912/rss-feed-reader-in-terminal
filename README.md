@@ -27,7 +27,7 @@ This Python script enables users to read RSS feeds directly from their terminal.
 1. Clone this repository:
    ```
    git clone https://github.com/hassan-912/rss-feed-reader-in-terminal.git
-   
+   ```
 2. Navigate to the project directory:
    ```
    cd rss-feed-reader-in-terminal
@@ -35,15 +35,15 @@ This Python script enables users to read RSS feeds directly from their terminal.
 3. Install the required packages:
    ```
    pip install feedparser requests prettytable
-   ```
+   
 
 ## Usage
-
+```
 Run the script using Python:
 
 ```
 python feed_reader.py [URL] [-l LIMIT]
-```
+
 
 ### Arguments:
 
@@ -51,22 +51,22 @@ python feed_reader.py [URL] [-l LIMIT]
 - `-l LIMIT`, `--limit LIMIT`: (Optional) Limit the number of entries to display.
 
 ### Examples:
-
+   ```
 1. Fetch a feed with prompts:
    ```
    python feed_reader.py
-   ```
+   
    You'll be prompted to enter the URL and optionally set a limit.
-
+   ```
 2. Fetch a specific feed:
    ```
    python feed_reader.py https://news.ycombinator.com/rss
+   
    ```
-
 3. Fetch a feed and limit the entries:
    ```
    python feed_reader.py https://news.ycombinator.com/rss -l 5
-   ```
+   
 
 ## License
 
