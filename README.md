@@ -1,4 +1,3 @@
-Certainly! I'll help you create a README.md file with a description and usage examples. Here's a template you can use:
 
 ```markdown:README.md
 # RSS Feed Reader in Terminal
