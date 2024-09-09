@@ -55,7 +55,7 @@ def display_feed_items(feed, limit=None):
         
         # Add date information
         if 'published' in entry:
-            date = datetime.strptime(entry.published, "%a, %d %b %Y %H:%M:%S %z")
+            date = datetime.strptime(entry.published, "%a, %d %b %Y %H:%M:%S %Z")
             table.add_row(["Date", date.strftime("%Y-%m-%d %H:%M:%S")])
 
         print(table)
