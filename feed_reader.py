@@ -4,7 +4,7 @@ from prettytable import PrettyTable
 import re
 from datetime import datetime
 import argparse
-
+#update coming soon
 def is_valid_url(url):
     regex = re.compile(
         r'^https?://'  # http:// or https://
